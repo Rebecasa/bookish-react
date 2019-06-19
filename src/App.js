@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import BookListContainer from "./BookListContainer";
 
-class App extends Component {
-  render(){
-    return (
-      <div className="App">
-        <h1>Bookish</h1>
-      </div>
-    )
-  }
+function App() {
+  return (
+    <div className="App">
+      <h1>Bookish</h1>
+      <BookListContainer />
+    </div>
+  )
 }
-
 export default App;
